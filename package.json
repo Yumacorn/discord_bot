@@ -1,4 +1,7 @@
 {
+  "name": "discord_testbot",
+  "version": "1.0.0",
+  "description": "Source: https://discordjs.guide/#before-you-begin",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
     "@discordjs/rest": "^0.3.0",
