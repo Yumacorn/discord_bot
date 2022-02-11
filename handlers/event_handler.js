@@ -8,6 +8,7 @@ module.exports = (client, Discord) => {
             const event = require(`../events/${directories}/${file}`);
             const eventName = file.split('.')[0];
             client.on(eventName, event.bind(null, Discord, client));
+            console.log(`----${directories} You created event_handler for ${eventFiles}`);
         }
     }
 
